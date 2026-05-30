@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Sun & Shadow - Unity 3D</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 24px;
+            padding: 48px;
+            max-width: 640px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #ffd700, #ff8c00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            color: #aaa;
+            margin-bottom: 32px;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(255,215,0,0.15);
+            color: #ffd700;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin: 4px;
+        }
+        .links {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            margin-top: 32px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-block;
+            padding: 14px 32px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1em;
+            transition: all 0.3s;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #ffd700, #ff8c00);
+            color: #1a1a2e;
+        }
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.3); }
+        .info {
+            margin-top: 24px;
+            padding: 24px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 16px;
+            text-align: left;
+            line-height: 1.8;
+        }
+        .info code {
+            background: rgba(255,255,255,0.1);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Minecraft Sun & Shadow</h1>
+        <p class="subtitle">Unity 3D | 太阳与影子科学实验</p>
+        <div>
+            <span class="badge">Unity 2022.3 LTS</span>
+            <span class="badge">3D 实时渲染</span>
+            <span class="badge">纹理贴图</span>
+            <span class="badge">天文模拟</span>
+        </div>
+
+        <div class="links">
+            <a class="btn btn-primary" href="https://github.com/guanwenjie928/minecraft-sun-shadow-unity" target="_blank">
+                GitHub 仓库
+            </a>
+            <a class="btn btn-secondary" href="https://guanwenjie928.github.io/minecraft-sun-shadow-experiment/" target="_blank">
+                在线演示 (Web版)
+            </a>
+        </div>
+
+        <div class="info">
+            <h3>快速开始</h3>
+            <p>1. 安装 <strong>Unity Hub</strong> 和 <strong>Unity 2022.3 LTS</strong></p>
+            <p>2. <code>git clone https://github.com/guanwenjie928/minecraft-sun-shadow-unity.git</code></p>
+            <p>3. Unity Hub → Add → 选择项目文件夹</p>
+            <p>4. 打开 <code>Assets/Scenes/MainScene.unity</code></p>
+            <p>5. <code>Tools</code> → <code>Minecraft Sun Shadow</code> → <code>Setup Scene</code></p>
+            <p>6. 按 <strong>Play</strong> 运行</p>
+        </div>
+    </div>
+</body>
+</html>
