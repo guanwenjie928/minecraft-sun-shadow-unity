@@ -1,0 +1,29 @@
+# Unity Project - Minecraft Sun & Shadow Experiment
+# ==============================================
+
+# Build outputs
+[Bb]uild/
+[Bb]uilds/
+[Ll]ibrary/
+[Ll]ocal[Cc]ache/
+
+# Temporary
+[Tt]emp/
+[Oo]bj/
+*.tmp
+*.log
+*.pidb
+*.pdb
+*.mdb
+
+# IDE
+.idea/
+.vs/
+*.csproj
+*.sln
+*.user
+*.DotSettings.user
+
+# OS
+.DS_Store
+Thumbs.db

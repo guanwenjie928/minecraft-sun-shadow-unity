@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 24
+  productName: Minecraft Sun & Shadow
+  organizationName: ZhiQue
+  defaultScreenWidth: 1280
+  defaultScreenHeight: 720
+  defaultIsNativeResolution: 1
+  runInBackground: 1
+  captureSingleScreen: 0
+  muteOtherAudioSources: 0
+  Prepare IOS For Recording: 0
+  Force IOS Speakers When Recording: 0
+  audioSpatializePlatform: 0
+  arcadeApp: 0
+  useCustomFlipColliders: 0
+  xboxSpeechDB: 0
+  vcBestQuality: 0
+  displayResolutionDialog: 1
+  visibleInBackground: 1
+  allowFullscreenSwitch: 1
+  fullscreenMode: 1
+  androidStartInFullscreen: 1
+  androidBlitType: 0
+  defaultIsNativeResolution: 1
+  macRetinaSupport: 1
+  resizableWindow: 1
+  useMacAppStoreValidation: 0
+  macAppStoreCategory: public.app-category.educational-games
+  usePlayerLog: 1
+  bakeCollisionMeshes: 0
+  forceSingleInstance: 0
+  useFlipModelSwapchain: 1
+  resizableWindow: 1
+  useCRSDotNet: 1
+  colorSpace: 0
+  gpuSkinning: 1
+  graphicsJobs: 0
+  xboxPIXTextureCapture: 0
+  xboxEnableAvatar: 0
+  xboxEnableKinect: 0
+  xboxEnableKinectAutoTracking: 0
+  xboxEnableFitness: 0
+  xboxEnableHMDTracking: 1
+  xboxEnableSpeech: 1
+  xboxAdditionalTitleMemorySize: 0
+  xboxDeployKinectResources: 0
+  xboxDeployHeadOrientation: 0
+  xboxDeployHeadPosition: 0
+  xboxSplashScreen: {fileID: 0}
+  xboxEnableSplashScreen: 0
+  xboxEnableDetails: 0
+  videoMemoryForVertexBuffers: 0
+  psp2PowerMode: 0
+  psp2acquireDelay: 0
+  psp2TVEnable: 0
+  psp2TVDisable: 0
+  bundleVersion: 1.0
+  preloadedAssets: []
+  metroInputSource: 0
+  wsaTransparentSwapchain: 0
+  m_HolographicPauseOnTrackingLoss: 1
+  xboxOneDisableKinectGpuReservation: 1
+  xboxOneEnable7thCore: 0
+  vrSettings:
+    cardboardDepthFormat: 0
+    enable360StereoCapture: 0
+  isWsaHolographicRemotingEnabled: 0
+  enableFrameTimingStats: 0
+  openGLRequireES31: 0
+  openGLRequireES31AEP: 0
+  openGLRequireES32: 0
+  useHDRDisplay: 0
+  D3DHDRBitDepth: 0
+  m_ColorGamuts: 00000000
+  targetPixelDensity: 30
+  resolutionScalingMode: 0
+  resetResolutionOnWindowResize: 0
+  androidSupportedAspectRatio: 1
+  androidMaxAspectRatio: 2.1
+  applicationIdentifier: {}
+  buildNumber: {}
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 22
+  AndroidTargetSdkVersion: 0
+  AndroidPreferredInstallLocation: 1
+  aotOptions:
+  stripEngineCode: 1
+  iPhoneStrippingLevel: 0
+  iPhoneScriptCallOptimization: 0
+  ForceInternetPermission: 0
+  ForceSDCardPermission: 0
+  CreateWallpaper: 0
+  APKExpansionFiles: 0
+  StripUnusedMeshComponents: 1
+  VertexChannelCompressionMask: 4054
+  iPhoneSdkVersion: 988
+  iOSTargetOSVersionString: 12.0
+  tvOSSdkVersion: 0
+  tvOSRequireExtendedGameController: 0
+  tvOSTargetOSVersionString: 12.0
+  uIPrerenderedIcon: 0
+  uIRequiresPersistentWiFi: 0
+  uIRequiresFullScreen: 1
+  uIStatusBarHidden: 1
+  uIExitOnSuspend: 0
+  uIOnDemandResources: 0
+  appleDeveloperTeamID:
+  iOSManualSigningProvisioningProfileID:
+  tvOSManualSigningProvisioningProfileID:
+  iOSManualSigningProvisioningProfileType: 0
+  tvOSManualSigningProvisioningProfileType: 0
+  appleEnableAutomaticSigning: 0
+  iOSRequirePushedCapabilities: 0
+  AndroidTargetArchitectures: 1
+  AndroidSplashScreenScale: 0
+  androidSplashScreen: {fileID: 0}
+  AndroidKeystoreName:
+  AndroidKeyaliasName:
+  AndroidBuildApkPerCpuArchitecture: 0
+  AndroidTvBanner: {fileID: 0}
+  AndroidTvBannerPortrait: {fileID: 0}
+  AndroidOBB: {fileID: 0}
+  AndroidEnableTango: 0
+  androidEnableBanner: 1
+  AndroidForceSAOnGles20: 0
+  AndroidForceSDCardPermission: 0
+  androidUseLowAccuracyLocation: 0
+  AndroidLogcatTags:
+  AndroidDeviceOBS:
+  metroPackageName: minecraft-sun-shadow
+  metroPackageVersion: 1.0.0
+  metroApplicationDescription: Minecraft Style Sun & Shadow Science Experiment
+  wsaImages: []
+  metroMediumTileShowName: 1
+  metroLargeTileShowName: 1
+  metroWideTileShowName: 1
+  metroSupportStreamingInstall: 0
+  metroLastRequiredScene: 0
+  metroTiles: []
+  metroTileShortName:
+  metroCommandLineArgsFile:
+  metroTileShortName:
+  splashScreenBackground: {r: 0.2, g: 0.4, b: 0.7, a: 1.0}
+  spritePackerPolicy:
+  webGLMemorySize: 256
+  webGLExceptionSupport: 1
+  webGLName: MinecraftSunShadow
+  webGLDataCaching: 1
+  webGLDebugSymbols: 0
+  webGLEmscriptenArgs:
+  webGLModulesDirectory:
+  webGLTemplate: APPLICATION:Default
+  webGLAnalyzeBuildSize: 0
+  webGLUseEmbeddedResources: 0
+  webGLCompressionFormat: 1
+  webGLLinkerTarget: 1
+  webGLThreadsSupport: 0
+  webGLDecompressionFallback: 0
+  webGLPowerPreference: 2
+  scriptingDefineSymbols: {}
+  additionalCompilerArguments: {}
+  platformArchitecture: {}
+  scriptingBackend: {}
+  il2cppCompilerConfiguration: {}
+  managedStrippingLevel: {}
+  incrementalIl2cppBuild: {}
+  suppressCommonWarnings: 1
+  allowUnsafeCode: 0
+  activeSubplatform: 0
+  additionalIl2CppArgs:
+  scriptingRuntimeVersion: 1
+  gcIncremental: 1
+  gcWBarrierValidation: 0
+  apiCompatibilityLevelPerPlatform: {}
+  m_RenderingPath: 1
+  m_MobileRenderingPath: 1
+  metroPackageName: minecraft-sun-shadow
+  metroPackageVersion: 1.0.0
+  metroApplicationDescription: Minecraft Style Sun & Shadow Science Experiment
+  metroUseLowLatencyAudio: 1
+  metroEnableIndependentInputSource: 0
+  metroEnableCoreLocation: 1
+  metroEnableLowLatencyPresentationAPI: 1
+  metroEnableNativeFormatting: 0
+  metroEnableHolographicRemoting: 0
+  metroTargetDeviceFamily: 0
+  metroSupportsMultipleInstances: 0
+  metroSplashScreen: {fileID: 0}
+  metroSplashScreen:
+  xboxOneResolution: 0
+  xboxOneMonoLogLevel: 0
+  xboxOneLogLevel: 0
+  xboxOneDisableEsram: 0
+  xboxOneEnableTypeOptimization: 0
+  xboxOnePresentImmediateThreshold: 0
+  switchQueueCommandMemory: 0
+  switchQueueControlMemory: 16384
+  switchQueueComputeMemory: 262144
+  switchNVNShaderPoolsGranularity: 33554432
+  switchNVNDefaultPoolsGranularity: 16777216
+  switchNVNOtherPoolsGranularity: 16777216
+  switchNVNMaxPublicTextureIDCount: 0
+  switchNVNMaxPublicSamplerIDCount: 0
+  stadiaPresentMode: 0
+  stadiaTargetFramerate: 0
+  vulkanNumSwapchainBuffers: 3
+  vulkanEnableSetSRGBWrite: 0
+  vulkanEnableLateAcquireNextImage: 0
+  vulkanEnableCommandBufferRecycling: 0
+  m_SupportedAspectRatios:
+    4_3: 1
+    5_4: 1
+    16_9: 1
+    16_10: 1
+    21_9: 1
+    Others: 1
+  bundleIdentifier: com.zhique.minecraftsunshadow
+  qualitySettings: {fileID: 0}
+  physicsMaterials: []
+  physics2DSettings:
+    m_BounceThreshold: 0
+  spritePackerPolicy:
+  webGLTemplate: APPLICATION:Default
+  m_TemplateCustomTags: {}
+  mobileMTRendering: 1
+  disableBluetoothAudioUpdate: 0
+  xboxOneDisableKinectGpuReservation: 1
+  xboxOneEnable7thCore: 0
+  isWsaHolographicRemotingEnabled: 0
+  enableFrameTimingStats: 0
