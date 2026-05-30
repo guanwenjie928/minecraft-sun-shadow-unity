@@ -10,6 +10,14 @@
 
 ## 快速开始
 
+### 方式一：在线运行（推荐）
+
+配置一次 Unity License 后，每次 push 代码 **自动构建 WebGL + 部署到 GitHub Pages**，直接用浏览器打开链接即可运行。
+
+**配置步骤：** 详见 [LICENSE-SETUP.md](./LICENSE-SETUP.md)，只需 3 分钟。
+
+### 方式二：本地 Unity 编辑器
+
 ### 环境要求
 - **Unity 2022.3 LTS** 或更高版本
 - 操作系统：Windows / macOS / Linux
@@ -85,7 +93,17 @@ Assets/
 | **太阳赤纬** | 冬至-23.5° / 春分0° / 夏至+23.5° |
 | **时角** | 每小时间隔 15°，正午=0° |
 
-## WebGL 构建
+## WebGL 自动构建（CI/CD）
+
+本项目配置了 GitHub Actions 自动流水线：
+
+1. **Push 到 main** → 自动触发
+2. `game-ci/unity-builder` → WebGL 编译
+3. 部署到 **gh-pages** 分支 → GitHub Pages
+
+构建状态可在仓库的 **Actions** 标签页查看。配置 License 后即全自动运行，无需手动构建。
+
+### 手动构建（备用）
 
 导出为 Web 版部署到 GitHub Pages：
 
